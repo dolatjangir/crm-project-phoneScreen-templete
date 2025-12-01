@@ -1,9 +1,9 @@
 "use client";
 import { IoIosArrowForward } from "react-icons/io";
 import Button from "@mui/material/Button";
-import { useEffect } from "react";
 
-export default function LeadStatus() {
+
+export default function LeadStatusClone() {
   const leadStatuses = [
     { name: "Interested" },
     { name: "Not Interested" },

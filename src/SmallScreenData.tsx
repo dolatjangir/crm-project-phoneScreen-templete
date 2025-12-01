@@ -2,7 +2,8 @@
 
 import { BrickWallFire, Podcast, School, Cable,ShieldUser,NotebookTabs } from "lucide-react";
 import ImageSlider from "@/ImageSlider";
-const WorkFromHome = () => {
+import HamburgerMenu from "@/phonescreen/HamburgerMenu"
+const SmallScreenData = () => {
 
 
   const boxeButtons = [
@@ -46,7 +47,7 @@ const WorkFromHome = () => {
  
   return (
     <>
-    <></>
+    <HamburgerMenu/>   
     <ImageSlider/>
     <div className="bg-gray-200 flex flex-col">
         
@@ -101,4 +102,4 @@ const WorkFromHome = () => {
   );
 };
 
-export default WorkFromHome;
+export default SmallScreenData;
